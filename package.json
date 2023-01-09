@@ -1,0 +1,29 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xperk/Node_Js.git"
+  },
+  "keywords": [
+    "Node_js"
+  ],
+  "author": "Tung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xperk/Node_Js/issues"
+  },
+  "homepage": "https://github.com/Xperk/Node_Js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
