@@ -1,0 +1,6 @@
+const express = require('express');
+const route = express.Router();
+
+const meControllers = require('../app/controllers/meController');
+route.get('/stored/courses', meControllers.storedCourses);
+module.exports = route;
